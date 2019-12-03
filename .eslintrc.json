@@ -20,5 +20,12 @@
         "@typescript-eslint"
     ],
     "rules": {
-    }
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
+    },
+    "overrides": [
+        {
+            "files": ["*.json"]
+        }
+    ]
 }

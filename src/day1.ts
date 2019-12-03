@@ -1,5 +1,5 @@
-import { massToFuel, moduleToFuel } from './day1.helper';
-import { default as data } from './inputs/day1.json';
+import { massToFuel, moduleToFuel } from "./day1.helper";
+import { default as data } from "./inputs/day1.json";
 
 /*
 The Elves quickly load you into a spacecraft and prepare to launch.
