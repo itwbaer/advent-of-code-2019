@@ -1,0 +1,26 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/eslint src/** && npx tsc --declaration true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itwbaer/advent-of-code-2019.git"
+  },
+  "author": "Ian Baer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itwbaer/advent-of-code-2019/issues"
+  },
+  "homepage": "https://github.com/itwbaer/advent-of-code-2019#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "eslint": "^6.7.2",
+    "typescript": "^3.7.2"
+  }
+}
