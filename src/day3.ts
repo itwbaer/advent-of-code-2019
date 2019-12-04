@@ -1,4 +1,4 @@
-import { minimumCollision } from "./day3.helper";
+import { minimumCollisionOfCoords, minimumCollisionOfSteps } from "./day3.helper";
 import { default as wires } from "./inputs/day3.json";
 /*
 Opening the front panel reveals a jumble of wires. Specifically, two wires are connected to a central port and extend outward on a grid. You trace the path each wire takes as it leaves the central port, one wire per line of text (your puzzle input).
@@ -40,7 +40,7 @@ U98,R91,D20,R16,D67,R40,U7,R15,U6,R7 = distance 135
 What is the Manhattan distance from the central port to the closest intersection?
 */
 
-console.log(minimumCollision(wires[0], wires[1]));
+console.log(minimumCollisionOfCoords(wires[0], wires[1]));
 
 
 /*
@@ -73,3 +73,5 @@ R98,U47,R26,D63,R33,U87,L62,D20,R33,U53,R51
 U98,R91,D20,R16,D67,R40,U7,R15,U6,R7 = 410 steps
 What is the fewest combined steps the wires must take to reach an intersection?
 */
+
+console.log(minimumCollisionOfSteps(wires[0], wires[1]));
